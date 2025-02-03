@@ -107,19 +107,24 @@ body {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    opacity: 0; /* Começa invisível */
-    animation: fadeInDown 1.5s forwards; /* Aplica animação */
+    opacity: 0;
+    /* Começa invisível */
+    animation: fadeInDown 1.5s forwards;
+    /* Aplica animação */
 }
 
 /* Definindo a animação de baixo para cima */
 @keyframes fadeInDown {
     0% {
         opacity: 0;
-        transform: translateY(30px); /* Começa deslocado para baixo */
+        transform: translateY(30px);
+        /* Começa deslocado para baixo */
     }
+
     100% {
         opacity: 1;
-        transform: translateY(0); /* Finaliza na posição original */
+        transform: translateY(0);
+        /* Finaliza na posição original */
     }
 }
 
@@ -129,10 +134,12 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Efeito de sombra para dar profundidade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Efeito de sombra para dar profundidade */
     word-wrap: break-word;
     opacity: 0;
-    animation: fadeInDown 1s 0.5s forwards; /* Animação com atraso */
+    animation: fadeInDown 1s 0.5s forwards;
+    /* Animação com atraso */
 }
 
 .text-logo {
@@ -142,7 +149,8 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Efeito de sombra para dar profundidade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* Efeito de sombra para dar profundidade */
 }
 
 #inicio p {
@@ -152,8 +160,10 @@ body {
     line-height: 1.6;
     margin: 0 auto;
     opacity: 0;
-    animation: fadeInDown 1s 1s forwards; /* Animação com atraso */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra suave para o texto */
+    animation: fadeInDown 1s 1s forwards;
+    /* Animação com atraso */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    /* Sombra suave para o texto */
 }
 
 /* Sobre */
@@ -168,9 +178,12 @@ body {
     justify-content: space-between;
     gap: 100px;
     flex-wrap: wrap;
-    opacity: 0; /* Inicialmente invisível */
-    transform: translateY(50px); /* Inicia deslocado para baixo */
-    animation: fadeInDown 1s ease-out forwards; /* Chama a animação fadeInDown */
+    opacity: 0;
+    /* Inicialmente invisível */
+    transform: translateY(50px);
+    /* Inicia deslocado para baixo */
+    animation: fadeInDown 1s ease-out forwards;
+    /* Chama a animação fadeInDown */
 }
 
 .sobre-header h1 {
@@ -395,4 +408,111 @@ li,
     .controls .exchange {
         font-size: 14px;
     }
+}
+
+/* Cards cursos */
+
+#precos {
+    padding: 60px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#precos h1 {
+    font-size: 2.5em; /* Tamanho maior para destacar o título */
+    color: #e77c00; /* Cor escura para melhor contraste */
+    margin-bottom: 50px; /* Espaçamento abaixo do título */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 1px; /* Espaçamento entre letras para melhor legibilidade */
+    font-weight: bold; /* Deixa o texto em negrito */
+    border-bottom: 2px solid #999; /* Adiciona uma linha abaixo do título */
+    padding-bottom: 20px; /* Espaçamento abaixo do texto e da linha */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+.card-container {
+    display: flex;
+    /* Usando flexbox para layout */
+    justify-content: center;
+    /* Centraliza os cards */
+    flex-wrap: wrap;
+    /* Permite que os cards se movam para a próxima linha */
+}
+
+.card {
+    background-color: #fff;
+    /* Cor de fundo branca para os cards */
+    border: 1px solid #ddd;
+    /* Borda leve */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin: 10px;
+    /* Espaçamento entre os cards */
+    width: 300px;
+    /* Largura fixa para os cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+    transition: transform 0.3s;
+    /* Transição suave para o efeito de hover */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Efeito de elevação ao passar o mouse */
+}
+
+.card h2 {
+    font-size: 1.5em;
+    /* Tamanho do título */
+    margin-bottom: 10px;
+    /* Espaçamento abaixo do título */
+}
+
+.card h3 {
+    font-size: 1.2em;
+    /* Tamanho do preço */
+    color: #333;
+    /* Cor do preço */
+    margin: 15px 0;
+    /* Espaçamento acima e abaixo do preço */
+}
+
+.card ul {
+    list-style: none;
+    /* Remove marcadores da lista */
+    padding: 0;
+    /* Remove padding */
+    margin: 10px 0;
+    /* Espaçamento acima e abaixo da lista */
+}
+
+.card ul li {
+    margin: 5px 0;
+    /* Espaçamento entre os itens da lista */
+}
+
+.btn {
+    display: inline-block;
+    /* Para que o botão tenha um tamanho adequado */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    background-color: #e77c00;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Cor do texto do botão */
+    text-decoration: none;
+    /* Remove sublinhado */
+    border-radius: 5px;
+    /* Bordas arredondadas do botão */
+    transition: background-color 0.3s;
+    /* Transição suave para a cor de fundo */
+}
+
+.btn:hover {
+    background-color: #999;
+    /* Cor do botão ao passar o mouse */
 }

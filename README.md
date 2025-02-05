@@ -26,6 +26,11 @@ Este projeto tem como objetivo demonstrar a aplicação de técnicas como:
 - Integração com APIs externas
 - Recursos do navegador (como síntese de fala e cópia para a área de transferência)
 
+## Videos 🎥
+
+- **Demonstração do Projeto**: 
+https://github.com/user-attachments/assets/792b4de8-ddb4-43a8-ae7c-840351f14606
+
 ## Notas ⚠️
 
 - A funcionalidade de **síntese de fala** (SpeechSynthesisUtterance) está em processo de ajuste.

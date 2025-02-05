@@ -1,5 +1,5 @@
 const countries = {
-"am-ET": "Amárico",
+    "am-ET": "Amárico",
     "ar-SA": "Árabe",
     "be-BY": "Bielorrusso",
     "bem-ZM": "Bemba",

@@ -29,7 +29,7 @@ Este projeto tem como objetivo demonstrar a aplicação de técnicas como:
 ## Videos 🎥
 
 - **Demonstração do Projeto**: 
-https://github.com/user-attachments/assets/792b4de8-ddb4-43a8-ae7c-840351f14606
+
 
 ## Notas ⚠️
 

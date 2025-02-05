@@ -31,6 +31,10 @@ Este projeto tem como objetivo demonstrar a aplicação de técnicas como:
 - **Demonstração do Projeto**: 
 
 
+https://github.com/user-attachments/assets/12629674-0d0c-4d85-ac7e-c121ba390f5f
+
+
+
 ## Notas ⚠️
 
 - A funcionalidade de **síntese de fala** (SpeechSynthesisUtterance) está em processo de ajuste.

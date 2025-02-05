@@ -28,5 +28,5 @@ Este projeto tem como objetivo demonstrar a aplicação de técnicas como:
 
 ## Notas ⚠️
 
-- A funcionalidade de **síntese de fala** (SpeechSynthesisUtterance) está em processo de ajuste e pode não funcionar corretamente em todas as plataformas.
+- A funcionalidade de **síntese de fala** (SpeechSynthesisUtterance) está em processo de ajuste.
 - O projeto foi desenvolvido com foco em uma experiência de tradução interativa e prática para o usuário.
